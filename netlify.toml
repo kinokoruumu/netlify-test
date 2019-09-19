@@ -1,0 +1,5 @@
+[context.production]
+  command = "make production"
+
+[context.deploy-preview]
+  command = "make deploy_preview"
