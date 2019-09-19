@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>ブランチ環境できるのかな〜 v2</p>
+        <p>ブランチ環境できるのかな〜 v3</p>
         <a
           className="App-link"
           href="https://reactjs.org"
