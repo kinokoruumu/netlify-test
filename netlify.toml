@@ -1,5 +1,5 @@
 [context.production]
-  command = "make production"
+  command = "yarn build"
 
 [context.deploy-preview]
-  command = "make deploy_preview"
+  command = "yarn build && echo '/* /login 401! Role=user' > build/_redirects"
