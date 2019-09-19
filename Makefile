@@ -2,4 +2,4 @@ production:
 	yarn build
 
 deploy_preview:
-	yarn build && cp netlify/{_redirects,login.html} public/.
+	yarn build && cp netlify/{_redirects,login.html} build/.
