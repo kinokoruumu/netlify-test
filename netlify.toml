@@ -1,5 +1,7 @@
 [context.production]
-  command = "yarn build"
+  command = "make production"
+  environment = { NODE_ENV = "production" }
 
 [context.deploy-preview]
-  command = "yarn build && cp netlify/_headers build/_headers"
+  command = "make deploy_preview"
+  environment = { NODE_ENV = "development" }
