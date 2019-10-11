@@ -13,6 +13,14 @@ module.exports = {
   module: {
     rules: [
       // add your custom rules.
-    ],
-  },
+      {
+        test: /.jsx?$/,
+        loader: "babel-loader",
+        exclude: /node_modules/,
+        query: {
+          presets: ["@babel/preset-env", "@babel/preset-react"]
+        }
+      }
+    ]
+  }
 };
