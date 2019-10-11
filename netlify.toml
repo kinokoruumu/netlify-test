@@ -1,5 +1,0 @@
-[context.production]
-  command = "yarn build"
-
-[context.deploy-preview]
-  command = "yarn build && cp netlify/_headers build/_headers"
